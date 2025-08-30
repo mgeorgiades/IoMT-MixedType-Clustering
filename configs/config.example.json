@@ -1,0 +1,9 @@
+{
+  "input": "data/processed/mqtt_features.parquet",
+  "out": "outputs/runs/2025-08-30_120000",
+  "iters": 50,
+  "k": 6,
+  "seed": 123,
+  "sample": 1000,
+  "_note": "Copy to your local machine and adapt as needed. The main script also writes a run-specific config.json into the outputs folder."
+}
