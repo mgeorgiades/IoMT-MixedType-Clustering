@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: If you use this repository, please cite it as below.
+title: IoMT-MixedType-Clustering
+version: 0.1.0
+date-released: 2025-08-30
+authors:
+  - family-names: Georgiades
+    given-names: Michael
+repository-code: https://github.com/mgeorgiades/IoMT-MixedType-Clustering
+license: GPL-3.0-only
+keywords:
+  - IoMT
+  - MQTT
+  - clustering
+  - mixed-type data
+  - reproducibility
+preferred-citation:
+  type: software
+  authors:
+    - family-names: Georgiades
+      given-names: Michael
+  title: IoMT-MixedType-Clustering
+  year: 2025
+  url: https://github.com/mgeorgiades/IoMT-MixedType-Clustering
