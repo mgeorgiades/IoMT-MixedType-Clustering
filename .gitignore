@@ -1,0 +1,60 @@
+# ------------------------
+# R / RStudio
+# ------------------------
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# renv (if used)
+renv/library/
+renv/staging/
+
+# ------------------------
+# Python / Notebooks
+# ------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual envs
+.venv/
+venv/
+env/
+.conda/
+.mamba/
+
+# ------------------------
+# Data & artifacts (keep structure with .gitkeep/README)
+# ------------------------
+data/raw/**
+data/interim/**
+data/external/**
+data/processed/**
+!data/README.md
+!data/**/.gitkeep
+
+# ------------------------
+# Outputs & logs
+# ------------------------
+outputs/**
+!outputs/.gitkeep
+*.log
+
+# ------------------------
+# Editors / OS
+# ------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# ------------------------
+# Builds / compiled
+# ------------------------
+*.o
+*.so
+*.dll
