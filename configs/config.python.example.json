@@ -1,0 +1,29 @@
+{
+  "dataset_root": "../CICIoMT2024/Dataset/WiFI_and_MQTT/attacks/PCAP",
+  "split": "test",
+  "pcaps": [
+    "Benign_test.pcap",
+    "MQTT-DDoS-Connect_Flood_test.pcap",
+    "MQTT-DDoS-Publish_Flood_test.pcap",
+    "MQTT-DoS-Connect_Flood_test.pcap",
+    "MQTT-DoS-Publish_Flood_test.pcap",
+    "MQTT-Malformed_Data_test.pcap"
+  ],
+  "labels": {
+    "Benign_test": "Benign",
+    "MQTT-DDoS-Connect_Flood_test": "DDoS-Connect",
+    "MQTT-DDoS-Publish_Flood_test": "DDoS-Publish",
+    "MQTT-DoS-Connect_Flood_test": "DoS-Connect",
+    "MQTT-DoS-Publish_Flood_test": "DoS-Publish",
+    "MQTT-Malformed_Data_test": "Malformed"
+  },
+  "json_dir": "json_mqtt_only",
+  "outputs_dir": "outputs",
+  "parquet_name": "mqtt_features.parquet",
+  "pipeline": "json",
+  "tshark_args": [
+    "-Y", "mqtt",
+    "-T", "json",
+    "-n"
+  ]
+}
